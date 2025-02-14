@@ -7,8 +7,23 @@
   </head>
 
   <body>
+
+    <button onclick="
+      
+      
+      " class="js-button">Click</button>
+
+
     <script>
       const log = console.log;
+
+
+
+
+      const buttonElement = document.querySelector('js-button')
+
+
+      buttonElement.addEventListener();
       /*
       function greeting() {
         console.log(" hello");
@@ -67,10 +82,52 @@
 
       log('next line 2')
       */
-      ["make dinner", "wash dishes", "watch youtube"].forEach(function (value, index) {
+
+      /*
+      ["make dinner", "wash dishes", "watch youtube"
+
+      ].forEach((value, index) => {
+if(value === 'wash dishes') {
+  return;
+}
+
+
         log(index)
         log(value);
       });
+
+const regularFunction = function (param, param2) {
+
+  log('hellloooo')
+  return 5;
+}
+
+const arrowFunction = (param, param2) => {
+log('hello')
+return 5;
+}
+arrowFunction()
+
+
+const oneParam = param => {
+log(param + 1)
+
+}
+
+oneParam(2)
+
+const oneLine = () => 2 + 3;
+log(oneLine())
+
+const object = {
+method: () > {
+  
+},
+method() {
+
+}
+}
+*/
     </script>
   </body>
 </html>
