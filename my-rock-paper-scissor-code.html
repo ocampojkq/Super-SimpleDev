@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <button
+      onclick="
+
+    const myPick = 'rock'
+ let result ='';
+ console.log(myPick)
+
+ const randomNumber = Math.floor(Math.random() * 3) + 1;
+console.log(randomNumber);
+
+if (myPick && randomNumber === 1) {
+result = ('tie')
+    console.log(result)
+  
+  
+
+}else if (myPick && randomNumber === 2) {
+    result = ('lose')
+    console.log('lose');
+} else {
+    result = ('win')
+    console.log('win')
+}
+
+document.getElementById('result').textContent = result;
+     "
+    >
+      rock
+    </button>
+    <p id="result"></p>
+  </body>
+</html>
